@@ -1,0 +1,12 @@
+Kullanicidan alinan bir sayinin basamaklari ile yazilabilecek tum
+asal sayilarin adedini ekrana yazdiran fonksiyon M() olsun.
+
+__ORNEK:__
+	M(127):
+		| 2 | 7 | 17 | 71 | 127 | 271 |
+		
+		= 6
+		
+__CIKTI:__
+	100.000'e kadar olan sayilar icinde M() fonksiyonundan en buyuk 
+	sayiyi donduren sayi kactir?
