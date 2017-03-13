@@ -1,0 +1,9 @@
+Mukemmel sayi sayinin kendisi disinda pozitif tam sayi bolenlerinin
+toplami, sayinin kendisine esit ise bu sayi mukemmel sayidir.
+
+__ORNEK:__
+	6 --> 1+2+3 = 6
+	
+	
+__CIKTI:__
+	100.000'e kadar olan mukemmel sayilarin toplami kactir?

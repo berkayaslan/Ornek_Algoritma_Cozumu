@@ -1,0 +1,19 @@
+Bir asal sayinin basamaklarinin yer degismesiyle yine bir asal sayi 
+oluyor ve bu tum varyasyonlar icin gecerli oluyorsa bu dairesel asal
+bir sayidir. 
+
+__ORNEK:__
+	197 --> Asal
+	971 --> Asal
+	719 --> Asal
+	
+	Bu durumda 197, 971 ve 719 dairesel asal sayilardair.
+	
+	
+	
+100'un altindaki tum dairesel asal sayilar: 2, 3, 5, 7, 11,13, 17,
+											31, 37, 71, 73, 79, 97
+dir.
+
+__CIKTI:__
+	1000'e kadar kac dairesel asal sayi vardir. 
