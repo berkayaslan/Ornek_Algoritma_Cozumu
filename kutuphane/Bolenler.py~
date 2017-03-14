@@ -1,0 +1,42 @@
+#! /usr/env/bin python3
+
+import time as t
+
+class Bolenler(object):
+	"""
+	Parametre olarak verilen bir sayinin bolenleri ile ilgili 
+	bircok islemlerin bircogunun yapilabilecegi sinif.
+	
+	ARGS:
+		sayi: sinif tanimlanirken alinmasi gereken sayi
+	"""
+	
+	def __init__(self, sayi):
+		self.sayi = sayi
+		baslangic=t.time()
+		print(self.asalSayilar(30))
+		bitis=t.time()
+		print(str(bitis-baslangic), 'saniyede cozuldu')
+		
+	def asalCarpanlar(self):
+		return
+		
+	def asalSayilar(self, limit):
+		asalSayilarListe = [2]
+		foo = 3
+
+		while (foo < limit):
+			bayrak = 1
+			
+			for bar in asalSayilarListe:
+				if (foo%bar == 0):
+					bayrak = 0
+					break
+			
+			if (bayrak == 1): asalSayilarListe.append(foo)
+			foo += 1
+			
+		return asalSayilarListe
+		
+if __name__ == "__main__":
+	Bolenler(10)
