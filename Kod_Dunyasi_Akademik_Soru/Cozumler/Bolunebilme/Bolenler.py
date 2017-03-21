@@ -17,18 +17,19 @@ class Bolenler(object):
 		"""
 		return tuple([x for x in self.asalSayilar(sayi) if (sayi%x==0)])
 
-	def asalSayilar(self, limit):
-		"""
-		Verilen limit degerine kadarki tum asal sayilari bulan fonksiyon. Buldugu asal
-		sayilari hafizasindaki listeye ekler. Baslangicta listede 2 sayisi vardir. Algoritma
-		geregi listede ilk eleman bulunmalidir.
+	def asalSayilar(self, limit: object) -> object:
+        """
+        Verilen limit degerine kadarki tum asal sayilari bulan fonksiyon. Buldugu asal
+        sayilari hafizasindaki listeye ekler. Baslangicta listede 2 sayisi vardir. Algoritma
+        geregi listede ilk eleman bulunmalidir.
 
-		ARGS:
-			limit: Asal sayilarin bulunacagi ust limit
+        ARGS:
+            limit: Asal sayilarin bulunacagi ust limit
 
-		RETURNS:
-			asalSayilarListe = Asal sayilarin bulundugu liste
-		"""
+        RETURNS:
+            asalSayilarListe = Asal sayilarin bulundugu liste
+            :rtype: object
+        """
 		asalSayilarListe = [2]
 		foo = 3
 

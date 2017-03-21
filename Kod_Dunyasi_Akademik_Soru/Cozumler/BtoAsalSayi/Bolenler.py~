@@ -1,4 +1,6 @@
 #! /usr/env/bin python3
+import time as t
+
 class Bolenler(object):
 	"""
 	Parametre olarak verilen bir sayinin bolenleri ile ilgili
@@ -32,7 +34,7 @@ class Bolenler(object):
 		asalSayilarListe = [2]
 		foo = 3
 
-		while (foo < limit):
+		while (foo <= limit):
 			bayrak = 1
 
 			for bar in asalSayilarListe: #Dongu sayisini kendinden onceki asal sayilara boler.
@@ -102,3 +104,31 @@ class Bolenler(object):
 			j+=1
 
 		return temp
+		
+ba = t.time()
+x = Bolenler().asalSayilar(99999)
+k = []
+
+
+for i in x:
+	li = [j for j in str(i)]
+	li.sort()
+	k.append(li)
+	
+foo = 0
+for foo in range(99999):
+	li2 = [j for j in str(foo)]
+	li2.sort()
+	temp=x.count(li2)
+
+	
+
+print(li2)
+	
+print(temp)
+	 
+
+
+bi=t.time()
+
+print(bi-ba)
